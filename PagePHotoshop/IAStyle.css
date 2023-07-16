@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+header {
+    background-color: #01253a;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #01253a;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .logo img {
+        width: 40px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+        margin: 10px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        background-color: #01253a;
+        padding: 10px;
+    }
+}
