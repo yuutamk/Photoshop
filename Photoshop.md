@@ -305,3 +305,57 @@ El Panel de Capas permite controlar y gestionar todas las capas. El orden en el 
 * Crear grupos
 * Crear capa de relleno a ajuste
 * Crear capa y eliminar capa
+
+<!-- # Organizar capas
+
+Reordenar capas: Desde la paleta Capas se hace clic sobre la capa que se quiere desplazar y se arrastra hasta la nueva posición.
+
+Grupos de capas: Las imagenes complejas con mochas capas conviene organizarlas en grupos que reúnen capas en una carpeta. Para crear un grupo se puede usar el botón Crear grupo nuevo.
+
+Duplicar capas: Se puede duplicar una capa o conjunto de capas en un mismo documento o en otro distinto <CtrI + J>.
+
+Combinación de capas: Consiste en fundir, agrupar las capas. Solo los
+formatos .PSD y .PDF admiten capas. Se puede hacer de tres formas:
+
+1. Menú Capa opción Combinar hacia abajo <CtrI + E>: funde Ia capa que está activa con la inmediatamente inferior.
+
+2. Menú Capa opción Combinar visibles <Mayús + Ctrl + E>: combina todas las capas visibles en ese momento.
+
+3. Menú Capa opción Acoplar imagen: agrupa todas las capas de la imagen.
+
+# Selección de capas
+
+1. Haga clic en una capa de la paleta Capas.
+
+2. Para seleccionar varias capas contiguas, haga clic en la primera capa, pulse
+la tecla <Mayús> y haga clic en la última capa.
+
+3. Para seleccionar varias capas no contiguas, pulse \<Ctrl>.
+
+4. Para seleccionar todas las capas, vaya al menú Selección, opcion Todas las capas. O mediante la combinaciön de teclas \<Alt + Ctrl + A>
+ -->
+
+# Rasterización de capas
+
+Algunos comandos y herramientas, como los efectos de filtro y las herramientas de pintura, no estån disponibles para capas de texto. Para poder aplicar el comando o utilizar la herramienta, antes debe rasterizar el texto. Rasterizar convierte la capa de texto en una capa normal y hace que su contenido sea imposible de editar como texto. Si selecciona un comando o una herramienta que requiere una capa rasterizada, aparece un mensaje de advertencia. Algunos mensajes de aviso presentan un botón OK en el que puede hacer clic para rasterizar la capa.
+
+También podra rasterizar los siguientes objetos:
+
+* Texto: Rasteriza el texto en una capa de texto. No rasteriza ningún Otro dato vectorial de la capa.
+
+* Forma: Rasteriza una capa de formas.
+
+* Contenido de relleno: Rasteriza el relleno de una capa de formas sin
+incluir la mascara vectorial.
+
+* Máscara vectorial: Rasteriza la máscara vectorial de una capa y la convierte en una máscara de capa.
+
+* Objeto inteligente: Convierte un objeto inteligente en una capa rasterizada.
+
+* Video: Rasteriza el cuadro de video actual en una capa de imagen.
+
+* 3D (solo en Extended): Rasteriza la vista actual de datos tridimensionales en una capa rasterizada Plana.
+
+* Capa: Rasteriza todos los datos vectoriales de las capas seleccionadas.
+
+* Todas las capas: Rasteriza todas las capas que contienen datos generados y vectoriales.
