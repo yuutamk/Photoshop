@@ -298,7 +298,7 @@ se convierte en "capa cero".
 
 # Panel de capas
 
-El Panel de Capas permite controlar y gestionar todas las capas. El orden en el que aparecen las capas indica su orden real de apilamiento.La capa activa se visuahza en azul. La casilla situada más a la izquierda, que muestra un icono en forma de ojo, es la que controla la visibilidad. Haciendo cltc sobre eI OJO. la capa se oculta. y si estå ocuita, al hacer clic se visualiza. En la barra de abajo de la paleta Capas hay botones para:
+El Panel de Capas permite controlar y gestionar todas las capas. El orden en el que aparecen las capas indica su orden real de apilamiento.La capa activa se visuahza en azul. La casilla situada más a la izquierda, que muestra un icono en forma de ojo, es la que controla la visibilidad. Haciendo cltc sobre eI ojo. la capa se oculta. y si estå ocuita, al hacer clic se visualiza. En la barra de abajo de la paleta Capas hay botones para:
 
 * Ariadir estilo de capa
 * Ariadir máscara de capa
