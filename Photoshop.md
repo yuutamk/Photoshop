@@ -359,3 +359,4 @@ incluir la mascara vectorial.
 * Capa: Rasteriza todos los datos vectoriales de las capas seleccionadas.
 
 * Todas las capas: Rasteriza todas las capas que contienen datos generados y vectoriales.
+
